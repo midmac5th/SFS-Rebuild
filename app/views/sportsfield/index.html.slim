@@ -1,0 +1,803 @@
+header.header
+  <meta name="google-site-verification" content="0Bh0L5hezLozQ1V8ZiBaLRmz93AwUB41cQcxut9Oz0w" />
+  <meta name="google-site-verification" content="G9P5TqV_qLgX1brRm-0vouQAPr9Skh_YBp8FgmulZJk" />
+  <a class="logo-words" href="https://sportsfieldsolutions.com">
+    .header-logo
+      = image_tag("header-logo.png", class:"header-logo-img")
+
+    .header-name
+      p SPORTS FIELD SOLUTIONS
+
+    <div class="M_header-name">
+      <p><span class="M_head-gray" style="line-height: 2.7vw;">SPORTS<br>FIELD</span><br><span class="M_head-green"> SOLUTIONS</span></p>
+    </div>
+  </a>
+  <div class="header-contact-button">
+    <a href="https://sportsfield-solutions.myshopify.com/pages/contact-us" class="main-button">
+      <div class="main-button-text green-button" style="font-size: .6rem !important;">CONTACT US</div>
+    </a>
+  </div>
+  <div class="header-menu">
+    <div class="M_menu">
+      <div class="hamburger">
+        <button onclick="openNav()" class="hamburger-button">
+          &#9776;
+        </button>
+      </div>
+      <div id="myNav" class="sidenav">
+        <%=image_tag("header-logo.png", class:"slider-logo")%>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="https://sportsfieldsolutions.com/">HOME</a>
+        <a href="https://sportsfieldsolutions.com/pages/who-we-are">WHO WE ARE</a>
+        <a href="https://sportsfieldsolutions.com/pages/what-we-do">WHAT WE DO</a>
+        <a href="https://sportsfieldsolutions.com/pages/materials">MATERIALS</a>
+        <a href="https://sportsfieldsolutions.com/pages/our-partners">OUR PARTNERS</a>
+        <a href="https://sportsfieldsolutions.com/blogs/learning-center">BLOG</a>
+        <a href="https://sportsfieldsolutions.com/blogs/video-gallery">VIDEO GALLERY</a>
+
+<!--          <a href="https://sportsfield-solutions.myshopify.com/pages/gallery">GALLERY</a> -->
+        <a href="https://sportsfieldsolutions.com/pages/contact-us">CONTACT US</a>
+      </div>
+    </div>
+    <ul class="menu">
+      <a href="https://sportsfieldsolutions.com/pages/who-we-are">
+        <li class="menu-item">
+          WHO WE ARE
+        </li>
+      </a>
+      <a href="https://sportsfieldsolutions.com/pages/what-we-do">
+        <li class="menu-item">
+          WHAT WE DO
+        </li>
+      </a>
+      <a href="https://sportsfieldsolutions.com/pages/materials">
+        <li class="menu-item">
+          MATERIALS
+        </li>
+      </a>
+      <a href="https://sportsfieldsolutions.com/pages/our-partners">
+        <li class="menu-item">
+          OUR PARTNERS
+        </li>
+      </a>
+      <div id="drop-down">
+        <button id="drop-down-button">LEARNING CENTER</button>
+        <div id="drop-down-content">
+          <a href="https://sportsfieldsolutions.com/blogs/news">BLOG</a>
+          <a href="https://sportsfieldsolutions.com/blogs/video-gallery">VIDEO GALLERY</a>
+        </div>
+      </div>
+    </ul>
+  </div>
+</header>
+
+<div id="homePage">
+  <div class="div1">
+    <div class="div1-headline">
+      <h1 class="div1-headline-content">
+        WE DON'T JUST BUILD SPORTS FIELDS.
+        <br>
+        <span class="bolder">WE BUILD PARTNERSHIPS.</span>
+      </h1>
+      <div id="smokeCover" class="smokeCover">
+      </div>
+    </div>
+    <div id="div1-icons" class="div1-icons">
+
+      <div class="icon">
+        <button onclick="divSwitch(1)" class="icon-select" id="natural-construction">
+          <%=image_tag('natural-construction.png')%>
+        </button>
+        <h2 class="icon-text">
+          NATURAL
+          <br>CONSTRUCTION
+        </h2>
+      </div>
+
+      <div class="icon">
+        <button onclick="divSwitch(2)" class="icon-select">
+          <%=image_tag('synthetic-construction.png')%>
+        </button>
+        <h2 class="icon-text">
+          SYNTHETIC
+          <br>CONSTRUCTION
+        </h2>
+      </div>
+      <div class="icon">
+        <button onclick="divSwitch(3)" class="icon-select">
+          <%=image_tag("maintenance.png")%>
+        </button>
+        <h2 class="icon-text">
+          MAINTENANCE
+        </h2>
+      </div>
+      <div class="icon active-icon">
+        <button onclick="divSwitch(4)" class="icon-select">
+          <%=image_tag("design-build.png")%>
+        </button>
+        <h2 class="icon-text">
+          DESIGN BUILD
+        </h2>
+      </div>
+      <div class="icon">
+        <button onclick="divSwitch(5)" class="icon-select">
+          <%=image_tag("materials.png")%>
+        </button>
+        <h2 class="icon-text">
+          MATERIALS
+        </h2>
+      </div>
+      <div class="icon">
+        <button onclick="divSwitch(6)" class="icon-select">
+          <%=image_tag("cultural.png")%>
+        </button>
+        <h2 class="icon-text">
+          CULTURAL PRACTICES
+          <br>& EROSION CONTROL
+        </h2>
+      </div>
+      <div class="icon">
+        <button onclick="divSwitch(7)" class="icon-select">
+          <%=image_tag("landscaping.png")%>
+        </button>
+        <h2 class="icon-text">
+          LANDSCAPING
+          <br>& IRRIGATION
+        </h2>
+      </div>
+    </div>
+  </div>
+  <div class="div2">
+    <div class="category one">
+      <h2 class="div2-header">
+        NATURAL CONSTRUCTION
+      </h2>
+      <p class="div2-content">
+        Having built over 1,000 natural fields in Texas, our team has specialized experience and expertise in handling any sports field construction needs. From rebuilding a pitching mound to building a football field from scratch, we provide professional quality at affordable prices to all of our customers.
+
+        Our construction field crews are some of the most skilled and talented individuals in the industry with years of experience on thousands of fields for all types of sports.
+
+      </p>
+      <a href="https://sportsfieldsolutions.com/pages/what-we-do#natural-construction" class="main-button learn-more">
+        <div class="main-button-text">LEARN MORE</div>
+      </a>
+    </div>
+    <div class="category two">
+      <h2 class="div2-header">
+        SYNTHETIC CONSTRUCTION
+      </h2>
+      <p class="div2-content">
+        We have a full turn-key synthetic turf field construction team  that can service all of your synthetic turf needs. As your contractor, we can manage the project from start to finish including:
+
+        Design,
+        Excavation,
+        Concrete,
+        Drainage,
+        Laser-grading,
+        Fencing,
+        Complete turf installation.
+
+        Our synthetic team has years of experience and a track record of building high-performance fields for all types of sports.
+      </p>
+      <a href="https://sportsfieldsolutions.com/pages/what-we-do#synthetic-construction" class="main-button learn-more">
+        <div class="main-button-text">LEARN MORE</div>
+      </a>
+    </div>
+    <div class="category three">
+      <h2 class="div2-header">
+        MAINTENANCE
+      </h2>
+      <p class="div2-content">
+        Our company provides affordable, outsourced maintenance options to meet your needs and budget. We ensure that our customers never have to worry about the appearance, safety, and playability of their fields. Our maintenance contracts include:
+
+        Division I universities,
+        Minor League baseball stadiums,
+        High school facilities,
+        Community recreation centers.
+
+        Our turf managers are skilled, educated, and talented individuals who have years of industry experience with all types and levels of fields.
+
+      </p>
+      <a href="https://sportsfieldsolutions.com/pages/what-we-do#maintenance" class="main-button learn-more">
+        <div class="main-button-text">LEARN MORE</div>
+      </a>
+    </div>
+    <div class="category four active-category">
+      <h2 class="div2-header">
+        DESIGN BUILD
+      </h2>
+      <p class="div2-content">
+        We can help you make your vision become a reality. Our team of experienced engineers
+        and designers has planned and built fields, complexes, and stadiums for all types of
+        sports. Let us guide you through the design phase of your dream field or complex, and
+        help you find the best solution based on your needs and budget.
+      </p>
+      <a href="https://sportsfieldsolutions.com/pages/what-we-do#design-build" class="main-button learn-more">
+        <div class="main-button-text">LEARN MORE</div>
+      </a>
+    </div>
+    <div class="category five">
+      <h2 class="div2-header">
+        MATERIALS
+      </h2>
+      <p class="div2-content">
+        Our team can help you with whatever sportsfield material needs you have. We own a 30 acre quarry with beautiful infield clay and mound clay located in Granbury, Texas. Our materials include:
+
+
+        Clays,
+        Topdressing sand,
+        Field nutrients (fertilizers, pesticides, herbicides, etc),
+        Other materials you need to ensure your field is performing at its best.
+      </p>
+      <a href="https://sportsfieldsolutions.com/pages/what-we-do#materials" class="main-button learn-more">
+        <div class="main-button-text">LEARN MORE</div>
+      </a>
+    </div>
+    <div class="category six">
+      <h2 class="div2-header">
+        CULTURAL PRACTICES & EROSION CONTROL
+      </h2>
+      <p class="div2-content">
+        Our experience in maintaining fields has given us a unique insight and clear understanding of how to help a field perform at its best. Our offerings include:
+        Topdressing,
+        Aeration,
+        Nutrient treatments,
+        any other services to improve your field’s performance.
+
+        Our team also provides additional cost-efficient solutions to get healthy grass to grow on your fields or facilities, such as:
+
+        Sprigging,
+        Hydro-sprigging,
+        Hydroseeding.
+      </p>
+      <a href="https://sportsfieldsolutions.com/pages/what-we-do#cultural" class="main-button learn-more">
+        <div class="main-button-text">LEARN MORE</div>
+      </a>
+    </div>
+    <div class="category seven">
+      <h2 class="div2-header">
+        LANDSCAPING & IRRIGATION
+      </h2>
+      <p class="div2-content">
+        Your athletic field is only as good as your irrigation system. Our team has built, renovated, and maintained irrigation systems on every kind of field, in all of the varied climates of Texas. We have experience with large, expensive irrigation systems, as well as many single-field systems, so  we are prepared to help you with your specific irrigation needs.
+
+        <br><br>In addition to irrigation systems, we perform landscape architecture and installation in-house. Surrounding nearly every field is some type of landscape design, and our professional team is always available to consult with you regarding how your field can look its best.
+
+      </p>
+      <a href="https://sportsfieldsolutions.com/pages/what-we-do#landscaping-irrigation" class="main-button learn-more">
+        <div class="main-button-text">LEARN MORE</div>
+      </a>
+    </div>
+  </div>
+  <div class="div3">
+    <div class="div3-top">
+      <h3 class="div3-title">
+        <span class="bolder">OVER 1000</span> FIELDS BUILT OR RENOVATED IN TEXAS
+      </h3>
+    </div>
+    <div class="div3-mid">
+      <div class="container" style="margin 0; padding: 0; width: 100%;">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel"  data-interval="false">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="0"></li>
+          </ol>
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item">
+              <%=image_tag("mainPageSlider-baseball.jpg", alt:"Chicago", style:"width:100%")%>
+              <h3 class="">
+                LEGACY CHRISTIAN<br><span class="bolder utsa-soccer-field">BASEBALL</span>
+              </h3>
+            </div>
+            <div class="item active">
+              <%=image_tag("soccer-field.jpg", alt:"Chicago", style:"width:100%;")%>
+              <h3 class="">
+                UTSA<br><span class="bolder utsa-soccer-field">SOCCER FIELD</span>
+              </h3>
+            </div>
+            <div class="item">
+              <%=image_tag("mainPageSlider-Football.jpg", class:"div3-soccer-image")%>
+              <h3 class="">
+                UNT<br><span class="bolder utsa-soccer-field">PRACTICE FIELD</span>
+              </h3>
+            </div>
+          </div>
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev" style="z-index: 5;">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <a href="https://sportsfieldsolutions.com/pages/contact-us" class="main-button get-in-touch">
+        <div class="main-button-text">GET IN TOUCH</div>
+      </a>
+    </div>
+    <div class="div3-bottom">
+      <div class="div3-bottom-title">
+        <h3 class="h3-div3-bottom-title">
+          OUR PARTNERS
+        </h3>
+      </div>
+      <div id="di3-bottom-icons" class="div3-bottom-icons">
+        <a href="https://sportsfield-solutions.myshopify.com/pages/our-partners" style="display:flex; align-items:center">
+          <div class="div3-icon">
+            <%=image_tag("north-texas.png", class:"div3-icon-image")%>
+          </div>
+        </a>
+        <a href="https://sportsfield-solutions.myshopify.com/pages/our-partners">
+          <div class="div3-icon">
+            <%=image_tag("baylor-bears.png", class:"div3-icon-image")%>
+          </div>
+        </a>
+        <a href="https://sportsfield-solutions.myshopify.com/pages/our-partners">
+          <div class="div3-icon">
+            = image_tag("texas-ranger.png", class:"div3-icon-image")
+          </div>
+        </a>
+        <a href="https://sportsfield-solutions.myshopify.com/pages/our-partners">
+          <div class="div3-icon">
+            <%=image_tag("utsa.png", class:"div3-icon-image")%>
+          </div>
+        </a>
+        <a href="https://sportsfield-solutions.myshopify.com/pages/our-partners" style="display:flex; align-items:center">
+          <div class="div3-icon">
+            <%=image_tag("longhornHomePage.png", class:"div3-icon-image">
+          </div>
+        </a>
+      </div>
+      <div class="div3-bottom-cta">
+        <a href="https://sportsfield-solutions.myshopify.com/pages/our-partners" class="main-button see-more">
+          <div class="main-button-text">SEE MORE</div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="div4">
+    <div class="div4-top">
+      <h4 class="div4-top-h4">
+        AS PARTNERS WE PROMISE
+        <span class="bolder">FOUR THINGS:</span>
+      </h4>
+    </div>
+    <div class="div4-mid">
+      <div class="div4-mid-content">
+        <h4 class="div4-mid-title">
+          ON
+          <br>BUDGET
+        </h4>
+        <p class="div4-mid-para">
+          We will help you
+          stretch your budget
+          as far as possible.
+        </p>
+      </div>
+      <div class="div4-mid-content">
+        <h4 class="div4-mid-title">
+          ON
+          <br>TIME
+        </h4>
+        <p class="div4-mid-para">
+          We will do the job
+          right the first time.
+        </p>
+      </div>
+      <div class="div4-mid-content">
+        <h4 class="div4-mid-title">
+          HIGH
+          <br>QUALITY
+        </h4>
+        <p class="div4-mid-para">
+          We will provide
+          world-class products
+          and services at fair
+          prices.
+        </p>
+      </div>
+      <div class="div4-mid-content">
+        <h4 class="div4-mid-title">
+          TURN
+          <br>KEY
+        </h4>
+        <p class="div4-mid-para">
+          We will be your
+          one-stop shop for any
+          sportsfield needs.
+        </p>
+      </div>
+    </div>
+    <div class="div4-bottom">
+      <a href="https://sportsfield-solutions.myshopify.com/pages/who-we-are" class="main-button see-more">
+        <div class="main-button-text">ABOUT US</div>
+      </a>
+    </div>
+  </div>
+<!--   <div class="div5">
+    <span class="getInTouch">GET IN TOUCH</span>
+  </div>
+  form goes here -->
+</div>
+
+
+<div id="M_homePage">
+  <div class="div1">
+    <div class="div1-headline">
+      <h1 class="div1-headline-content">
+        WE DON'T JUST BUILD<br>SPORTS FIELDS.
+        <br>
+        <span class="bolder">WE BUILD<br>PARTNERSHIPS.</span>
+      </h1>
+      <div id="smokeCover" class="smokeCover">
+      </div>
+      <div id="div1-icons" class="div1-icons">
+        <div id="icon-break-top">
+          <div class="icon siete top-left-icon">
+            <button onclick="divSwitch(7)" class="icon-select" id="">
+              <%=image_tag("natural-construction.png" | asset_url}} alt="">
+            </button>
+            <h2 class="icon-text">
+              NATURAL
+              <br>CONSTRUCTION
+            </h2>
+          </div>
+          <div class="icon dos">
+            <button onclick="divSwitch(2)" class="icon-select" id="">
+              <%=image_tag("synthetic-construction.png" | asset_url}} alt="">
+            </button>
+            <h2 class="icon-text">
+              SYNTHETIC
+              <br>CONSTRUCTION
+            </h2>
+          </div>
+          <div class="icon tres top-right-icon">
+            <button onclick="divSwitch(3)" class="icon-select" id="">
+              <%=image_tag("maintenance.png" | asset_url}} alt="">
+            </button>
+            <h2 class="icon-text">
+              MAINTENANCE
+            </h2>
+          </div>
+        </div>
+        <div id="icon-break-mid">
+          <div class="icon seis bottom-left-icon" id="">
+            <button onclick="divSwitch(6)" class="icon-select" id="">
+              <%=image_tag("design-build.png" | asset_url}} alt="">
+            </button>
+            <h2 class="icon-text">
+              DESIGN BUILD
+            </h2>
+          </div>
+          <div class="icon uno active-icon">
+            <button onclick="divSwitch(1)" class="icon-select" id="">
+              <%=image_tag("materials.png" | asset_url}} alt="">
+            </button>
+            <h2 class="icon-text">
+              MATERIALS
+            </h2>
+          </div>
+          <div class="icon cuatro bottom-right-icon">
+            <button onclick="divSwitch(4)" class="icon-select" id="">
+              <%=image_tag("cultural.png" | asset_url}} alt="">
+            </button>
+            <h2 class="icon-text">
+              CULTURAL PRACTICES
+              <br>& EROSION CONTROL
+            </h2>
+          </div>
+        </div>
+        <div class="icon cinco">
+          <button onclick="divSwitch(5)" class="icon-select" id="">
+            <%=image_tag("landscaping.png" | asset_url}} alt="">
+          </button>
+          <h2 class="icon-text">
+            LANDSCAPING
+            <br>& IRRIGATION
+          </h2>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="div2">
+     <a id="left-arrow-switch" onclick="divSwitchArrow(1)" class="" href="#myCarousel">  <!-- data-slide="prev" -->
+      <%=image_tag("blackArrow-left.png" | asset_url}} alt="">
+    </a>
+    <a id="right-arrow-switch" onclick="divSwitchArrow(2)" class="" href="#myCarousel"> <!--  data-slide="next" -->
+      <%=image_tag("blackArrow-right.png" | asset_url}} alt="">
+    </a>
+    <div class="category seven">
+      <h2 class="div2-header">
+        NATURAL CONSTRUCTION
+      </h2>
+      <p class="div2-content">
+        Having built over 1,000 natural fields in Texas, our team has specialized experience and expertise in handling any sports field construction needs. From rebuilding a pitching mound to building a football field from scratch, we provide professional quality at affordable prices to all of our customers.
+
+        Our construction field crews are some of the most skilled and talented individuals in the industry with years of experience on thousands of fields for all types of sports.
+
+      </p>
+      <a href="https://sportsfield-solutions.myshopify.com/pages/what-we-do#natural-construction" class="main-button learn-more">
+        <div class="main-button-text">LEARN MORE</div>
+      </a>
+    </div>
+    <div class="category two">
+      <h2 class="div2-header">
+        SYNTHETIC CONSTRUCTION
+      </h2>
+      <p class="div2-content">
+        We have a full turn-key synthetic turf field construction team  that can service all of your synthetic turf needs. As your contractor, we can manage the project from start to finish including:
+
+        Design,
+        Excavation,
+        Concrete,
+        Drainage,
+        Laser-grading,
+        Fencing,
+        Complete turf installation.
+
+        Our synthetic team has years of experience and a track record of building high-performance fields for all types of sports.
+      </p>
+      <a href="https://sportsfield-solutions.myshopify.com/pages/what-we-do#synthetic-construction" class="main-button learn-more">
+        <div class="main-button-text">LEARN MORE</div>
+      </a>
+    </div>
+    <div class="category three">
+      <h2 class="div2-header">
+        MAINTENANCE
+      </h2>
+      <p class="div2-content">
+        Our company provides affordable, outsourced maintenance options to meet your needs and budget. We ensure that our customers never have to worry about the appearance, safety, and playability of their fields. Our maintenance contracts include:
+
+        Division I universities,
+        Minor League baseball stadiums,
+        High school facilities,
+        Community recreation centers.
+
+        Our turf managers are skilled, educated, and talented individuals who have years of industry experience with all types and levels of fields.
+
+      </p>
+      <a href="https://sportsfield-solutions.myshopify.com/pages/what-we-do#maintenance" class="main-button learn-more">
+        <div class="main-button-text">LEARN MORE</div>
+      </a>
+    </div>
+    <div class="category six">
+      <h2 class="div2-header">
+        DESIGN BUILD
+      </h2>
+      <p class="div2-content">
+        We can help you make your vision become a reality. Our team of experienced engineers
+        and designers has planned and built fields, complexes, and stadiums for all types of
+        sports. Let us guide you through the design phase of your dream field or complex, and
+        help you find the best solution based on your needs and budget.
+      </p>
+      <a href="https://sportsfield-solutions.myshopify.com/pages/what-we-do#design-build" class="main-button learn-more">
+        <div class="main-button-text">LEARN MORE</div>
+      </a>
+    </div>
+    <div class="category one active-category">
+      <h2 class="div2-header">
+        MATERIALS
+      </h2>
+      <p class="div2-content">
+        Our team can help you with whatever sportsfield material needs you have. We own a 30 acre quarry with beautiful infield clay and mound clay located in Granbury, Texas. Our materials include:
+
+
+        Clays,
+        Topdressing sand,
+        Field nutrients (fertilizers, pesticides, herbicides, etc),
+        Other materials you need to ensure your field is performing at its best.
+      </p>
+      <a href="https://sportsfield-solutions.myshopify.com/pages/what-we-do#materials" class="main-button learn-more">
+        <div class="main-button-text">LEARN MORE</div>
+      </a>
+    </div>
+    <div class="category four">
+      <h2 class="div2-header">
+        CULTURAL PRACTICES & EROSION CONTROL
+      </h2>
+      <p class="div2-content">
+        Our experience in maintaining fields has given us a unique insight and clear understanding of how to help a field perform at its best. Our offerings include:
+        Topdressing,
+        Aeration,
+        Nutrient treatments,
+        any other services to improve your field’s performance.
+
+        Our team also provides additional cost-efficient solutions to get healthy grass to grow on your fields or facilities, such as:
+
+        Sprigging,
+        Hydro-sprigging,
+        Hydroseeding.
+      </p>
+      <a href="https://sportsfield-solutions.myshopify.com/pages/what-we-do#cultural" class="main-button learn-more">
+        <div class="main-button-text">LEARN MORE</div>
+      </a>
+    </div>
+    <div class="category five">
+      <h2 class="div2-header">
+        LANDSCAPING & IRRIGATION
+      </h2>
+      <p class="div2-content">
+        Your athletic field is only as good as your irrigation system. Our team has built, renovated, and maintained irrigation systems on every kind of field, in all of the varied climates of Texas. We have experience with large, expensive irrigation systems, as well as many single-field systems, so  we are prepared to help you with your specific irrigation needs.
+
+        <br><br>In addition to irrigation systems, we perform landscape architecture and installation in-house. Surrounding nearly every field is some type of landscape design, and our professional team is always available to consult with you regarding how your field can look its best.
+
+      </p>
+      <a href="https://sportsfield-solutions.myshopify.com/pages/what-we-do#landscaping-irrigation" class="main-button learn-more">
+        <div class="main-button-text">LEARN MORE</div>
+      </a>
+    </div>
+  </div>
+  <div class="div3">
+    <div class="div3-top">
+      <h3 class="div3-title">
+        <span class="bolder">OVER 1000</span> FIELDS<br>BUILT OR RENOVATED<br>IN TEXAS
+      </h3>
+    </div>
+    <div class="div3-mid">
+      <div class="container" style="margin 0; padding: 0; width: 100%;">
+        <div id="myCarouselfirst" class="carousel slide" data-ride="carousel"  data-interval="false">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="0"></li>
+          </ol>
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item1 item current1">
+              <%=image_tag("M_fieldCarousel2.jpg" | asset_url}} alt="Chicago" style="width:100%;">
+              <h3 class="">
+                LEGACY CHRISTIAN<br><span class="bolder utsa-soccer-field">BASEBALL</span>
+              </h3>
+            </div>
+            <div class="item1 item current1 active">
+              <%=image_tag("M_fieldCarousel.jpg" | asset_url}} alt="Chicago" style="width:100%;">
+              <h3 class="">
+                UTSA<br><span class="bolder utsa-soccer-field">SOCCER FIELD</span>
+              </h3>
+            </div>
+            <div class="item1 item current1">
+              <%=image_tag("M_fieldCarousel1.jpg" | asset_url}} class="div3-soccer-image">
+              <h3 class="">
+                UNT<br><span class="bolder utsa-soccer-field">PRACTICE FIELD</span>
+              </h3>
+            </div>
+          </div>
+          <!-- Left and right controls -->
+          <a class="left carousel-control click1" href="#myCarouselfirst" data-slide="prev" style="z-index: 5;">
+            <span class="glyphicon glyphicon-chevron-left left1"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control click1" href="#myCarouselfirst" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <a href="https://sportsfieldsolutions.com/pages/contact-us" class="main-button get-in-touch">
+        <div class="main-button-text">GET IN TOUCH</div>
+      </a>
+    </div>
+    <div class="div3-bottom">
+      <h3 class="h3-div3-bottom-title">
+        OUR PARTNERS
+      </h3>
+      <div class="container" style="margin 0; padding: 0; width: 100%;">
+        <div id="myCarousel1" class="carousel slide" data-ride="carousel"  data-interval="false">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+          </ol>
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item current2">
+              <%=image_tag("M_NTBlackB.jpg" | asset_url}} class="partner-photo" style="width:100%;">
+
+            </div>
+            <div class="item current2">
+              <%=image_tag("M_baylorBlackB.jpg" | asset_url}} alt="Chicao" style="width:100%;">
+
+            </div>
+            <div class="item current2 active">
+              <%=image_tag("M_rangerLogoBlackB.jpg" | asset_url}} class="div3-soccer-imag">
+            </div>
+            <div class="item current2">
+              <%=image_tag("M_UTSABlackB.jpg" | asset_url}} class="div3-soccer-imag">
+            </div>
+            <div class="item current2">
+              <%=image_tag("M_UTLonghorns_B.png" | asset_url}} class="div3-soccer-imag">
+            </div>
+          </div>
+          <!-- Left and right controls -->
+          <a class="left carousel-control click2" href="#myCarousel1" data-slide="prev" style="z-index: 5;">
+            <span class="glyphicon glyphicon-chevron-left click2"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control click2" href="#myCarousel1" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right click2"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <a href="https://sportsfieldsolutions.com/pages/contact-us" class="main-button see-more1">
+        <div class="main-button-text">
+          SEE MORE
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="div4">
+    <div class="div4-top">
+      <h4 class="div4-top-h4">
+        AS PARTNERS WE PROMISE<br>
+        <span class="bolder">FOUR THINGS:</span>
+      </h4>
+    </div>
+    <div class="div4-mid">
+      <div class="div4-mid-content budget">
+        <h4 class="div4-mid-title">
+          ON BUDGET
+        </h4>
+        <p class="div4-mid-para">
+          We will help you
+          stretch your budget
+          as far as possible.
+        </p>
+      </div>
+      <div class="div4-mid-content onTime">
+        <h4 class="div4-mid-title">
+          ON TIME
+        </h4>
+        <p class="div4-mid-para">
+          We will do the job
+          right the first time.
+        </p>
+      </div>
+      <div class="div4-mid-content highQuality">
+        <h4 class="div4-mid-title">
+          HIGH QUALITY
+        </h4>
+        <p class="div4-mid-para">
+          We will provide
+          world-class products
+          and services at fair
+          prices.
+        </p>
+      </div>
+      <div class="div4-mid-content turnKey">
+        <h4 class="div4-mid-title">
+          TURN KEY
+        </h4>
+        <p class="div4-mid-para">
+          We will be your
+          one-stop shop for any
+          sportsfield needs.
+        </p>
+      </div>
+    </div>
+    <div class="div4-bottom">
+      <a href="https://sportsfield-solutions.myshopify.com/pages/who-we-are" class="main-button see-more">
+        <div class="main-button-text">ABOUT US</div>
+      </a>
+    </div>
+  </div>
+<!--   <div class="div5">
+    <span class="getInTouch">GET IN TOUCH</span>
+  </div>
+  form goes here -->
+</div>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
